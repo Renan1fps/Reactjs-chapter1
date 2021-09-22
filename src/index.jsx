@@ -1,14 +1,15 @@
 // vendo como o babel compila o nosso código
 
 import React from "react"
+import { App } from "./App"
 
-const user = {
+ const user = {
   name: "Renan",
 }
 
 console.log(user.address?.street)
 
-function App(){
+function Initial(){
   return <h1>Hello</h1>
 }
 
